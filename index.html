@@ -1,0 +1,58 @@
+<html>
+  <head>
+    <link rel="stylesheet" href="style.css" />
+    <title>🏀 Scoreboard App by Leo</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&family=Orbitron:wght@500&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <div>
+        <h3>HOME</h3>
+      </div>
+      <div class="home-team score-black">
+        <p class="score-board-text" id="home-score">0</p>
+      </div>
+      <div class="btns">
+        <button class="plus-btn" id="home-plus-1" onclick="homePlusOne()">
+          +1
+        </button>
+        <button class="plus-btn" id="home-plus-2" onclick="homePlusTwo()">
+          +2
+        </button>
+        <button class="plus-btn" id="home-plus-3" onclick="homePlusThree()">
+          +3
+        </button>
+      </div>
+      <div>
+        <h3>GUEST</h3>
+      </div>
+      <div class="guest-team score-black">
+        <p class="score-board-text" id="guest-score">0</p>
+      </div>
+      <div class="btns">
+        <button class="plus-btn" id="home-plus-1" onclick="guestPlusOne()">
+          +1
+        </button>
+        <button class="plus-btn" id="home-plus-2" onclick="guestPlusTwo()">
+          +2
+        </button>
+        <button class="plus-btn" id="home-plus-3" onclick="guestPlusThree()">
+          +3
+        </button>
+      </div>
+      <button class="plus-btn" id="reset-all" onclick="resetAll()">
+        Reset Scoreboard
+      </button>
+    </div>
+    <div id="footer">
+      <p>Made with 🤍 in KC</p>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
