@@ -1,4 +1,10 @@
 "use strict";
+const resizeOps = () => {
+  document.documentElement.style.setProperty(
+    "--vh",
+    window.innerHeight * 0.01 + "px"
+  );
+};
 
 let homeEl = document.getElementById("home-score");
 let guestEl = document.getElementById("guest-score");
