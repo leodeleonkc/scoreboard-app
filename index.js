@@ -45,6 +45,8 @@ function resetAll() {
   guestEl.textContent = guestScore;
   winnerHome.classList.remove("winning");
   winnerGuest.classList.remove("winning");
+  winnerHome.classList.remove("tie");
+  winnerGuest.classList.remove("tie");
   let audio = new Audio("sound/reset.mp3");
   audio.play();
 }
