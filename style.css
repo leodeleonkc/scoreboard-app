@@ -1,3 +1,9 @@
+html,
+body {
+  height: 100vh;
+  height: calc(var(--vh, 1vh) * 100);
+}
+
 body {
   margin: 0;
   font-family: "Lato", sans-serif;
@@ -6,8 +12,6 @@ body {
   background: #0f2027;
   background: -webkit-linear-gradient(to right, #2c5364, #203a43, #0f2027);
   background: linear-gradient(to right, #2c5364, #203a43, #0f2027);
-  max-width: 560px;
-
 }
 
 .container {
@@ -41,7 +45,7 @@ h3 {
 }
 
 .plus-btn {
-  margin: 10px 25px;
+  margin: 10px 10px;
   padding: 1rem;
   color: #c7f8ff;
   background: #374151;
