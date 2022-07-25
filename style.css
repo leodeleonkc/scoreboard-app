@@ -55,6 +55,8 @@ h3 {
   font-size: 20px;
   text-transform: uppercase;
   letter-spacing: 0.3rem;
+   touch-action: manipulation;
+
 }
 
 .plus-btn:hover {
@@ -67,6 +69,8 @@ h3 {
 .btns {
   padding: 10px 0 20px;
   font-family: "Lato", sans-serif;
+  touch-action: manipulation;
+
 }
 
 #footer {
